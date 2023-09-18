@@ -1,10 +1,25 @@
 body{
     text-align: center;
+    background-color: lightgray;
+    padding: 50px;
 }
 
 h1{
     text-align: center;
 }
+
+.chapter{
+    text-align: center;
+    text-indent: 0;
+}
+
+.chapter_container{
+    width: 120px;
+    padding-left: 30px;
+    text-indent: 0;
+
+}
+
 p{
     text-align: left;
     text-indent: 2em;
@@ -13,7 +28,27 @@ p{
     margin-top: 1em;
 }
 
-.chapter{
-    text-align: center;
-    text-indent: 0;
+
+
+a{
+    margin-top: 1em;
+    display:inline-block
+}
+
+.nav_button{
+    border-radius: 20px;
+    width: auto;
+    box-shadow: inset;
+    border: 1;
+}
+
+.chapter_button{
+    border-radius: 20px;
+    width: auto;
+    box-shadow: inset;
+    border: 1;
+}
+
+img{
+    max-width: 200px;
 }
