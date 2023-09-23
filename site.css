@@ -35,18 +35,22 @@ a{
     display:inline-block
 }
 
-.nav_button{
+.clickable_button{
     border-radius: 20px;
     width: auto;
     box-shadow: inset;
     border: 1;
+    color: blue;
 }
 
-.chapter_button{
+button{
     border-radius: 20px;
     width: auto;
     box-shadow: inset;
     border: 1;
+    background-color: ;
+}
+
 }
 
 img{
