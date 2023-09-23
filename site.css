@@ -43,16 +43,27 @@ a{
     color: blue;
 }
 
-button{
+.chapter_button{
     border-radius: 20px;
     width: auto;
     box-shadow: inset;
     border: 1;
-    background-color: ;
+    background-color: lightgray;
 }
 
-}
+
 
 img{
-    max-width: 200px;
+    max-width: 180px;
+}
+
+.card_image{
+    max-width: 100px;
+    padding: 10px
+}
+
+.book_box   {
+    background-color: slategray;
+    display: flex;
+    margin: auto;
 }
